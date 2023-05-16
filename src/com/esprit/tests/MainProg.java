@@ -16,16 +16,16 @@ import java.sql.Date;
  */
 public class MainProg {
 public static void main(String[] args) {
-     // ServiceEvenement SE = new ServiceEvenement();
-     // System.out.println(SE.afficher());
+      ServiceEvenement SE = new ServiceEvenement();
+    //  System.out.println(SE.afficher());
      // SE.ajouter(new Evenement("dance", new Date(10, 05, 2023), "extraordinaire", "tunis"));
-    ServiceTicket ST= new ServiceTicket();
-    System.out.println(ST.afficher());
-   ST.ajouter(new Ticket(1,2f, 3, 1));
+    //ServiceTicket ST= new ServiceTicket();
+    //System.out.println(ST.afficher());
+   //ST.ajouter(new Ticket(1,2f, 3, 1));
    //ServiceEvenement SE = new ServiceEvenement();
    //SE.modifier(new Evenement(1, "sport", java.sql.Date.valueOf("2023-05-15"), "super", "bizerte"));
    
-  // SE.supprimer(new Evenement(1, "sport", java.sql.Date.valueOf("2023-05-15"), "super", "bizerte"));
+  SE.supprimer(new Evenement(1, "sport", java.sql.Date.valueOf("2023-05-15"), "super", "bizerte"));
   
    
    //System.out.println(SE.afficher());
